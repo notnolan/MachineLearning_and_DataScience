@@ -1,0 +1,14 @@
+bmi = int(input())
+
+
+if bmi >= 30:
+    print("Obese")
+elif bmi >= 25.5 and x < 30:
+    print("Overweight")
+elif bmi >= 18.5 and x < 25:
+    print("Healthy")
+elif bmi < 18.5:
+    print("Underweight")
+else:
+    print("Not valid weight")
+   
